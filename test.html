@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESPECTIVE</title>
+    <link rel="stylesheet" href="../stylesheets/style.css" />
+    <!-- ФАВИКОНКА -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <meta property="og:url" content="website" />
+
+    <script src="/javascripts/index.js" defer></script>
+
+    <!-- SEO + Context -->
+    <meta property="og:title" content="RESPECTIVE" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://i.postimg.cc/Bbh33ss3/01.jpg" />
+    <meta
+      property="og:description"
+      content="РЕСПЕКТИВА — приложение для принятия себя с помощью арт-терапии и медитации."
+    />
+    <meta property="og:image" content="https://i.postimg.cc/Bbh33ss3/01.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valgerte.github.io/respective" />
+  </head>
+  <body>
+    <div id="popup" class="popup">
+      <div class="popup-overlay"></div>
+
+      <div class="popup-content">
+        <div class="title_block_pop">
+          <h2>Ощутите себя <br />частью искусства</h2>
+          <p>Оставьте вашу почту, и получите доступ к бета-версии приложения</p>
+        </div>
+
+        <form class="popup-form" id="betaForm" novalidate>
+          <div class="inputs">
+            <div class="input">
+              <p class="label">ИМЯ</p>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Респектива"
+                autocomplete="name"
+                required
+                aria-describedby="nameError"
+              />
+              <p class="error-text" id="nameError" aria-live="polite"></p>
+            </div>
+
+            <div class="input">
+              <p class="label">ВАША ПОЧТА</p>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="example@domain.com"
+                autocomplete="email"
+                required
+                aria-describedby="emailError"
+              />
+              <p class="error-text" id="emailError" aria-live="polite"></p>
+            </div>
+
+            <div class="input">
+              <p class="label">ВАШИ ПОЖЕЛАНИЯ</p>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Пожелания"
+                required
+                aria-describedby="messageError"
+              ></textarea>
+              <p class="error-text" id="messageError" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <button class="button_bid" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <header class="test_header">
+      <nav class="site-nav">
+        <div class="logo">
+          <a href="index.html"><img src="/images/logo.png" alt="logo" /></a>
+        </div>
+
+        <ul class="menu" id="mobileMenu">
+          <li><a href="about.html">Суть</a></li>
+          <li><a href="store.html">Магазин</a></li>
+          <li><a href="affiche.html">Афиша</a></li>
+          <li><a href="test.html">Бета-тест</a></li>
+
+          <li class="menu__cta">
+            <button class="button_bid" id="openPopupMobile" type="button">
+              Оставить заявку
+            </button>
+          </li>
+        </ul>
+
+        <button class="button_bid nav-cta" id="openPopup" type="button">
+          Оставить заявку
+        </button>
+
+        <button
+          class="burger"
+          id="burger"
+          type="button"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <button
+          class="menu-close"
+          id="menuClose"
+          type="button"
+          aria-label="Закрыть меню"
+        >
+          ×
+        </button>
+      </nav>
+      <div class="title_block">
+        <div class="title">Цифровая арт-терапия</div>
+        <div class="subtitle_test">
+          Пройдите бета-тест и повлияйте на развитие платформы
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="beta">
+        <div class="beta__viewport">
+          <div class="beta__panel is-active" data-step="0">
+            <div class="test_block">
+              <div class="title_test">Взгляните на себя иначе</div>
+              <div class="test">
+                <div class="about_test">
+                  <div class="test_subtitle">Старт</div>
+                  <div class="about_text">Загрузите свою фотографию</div>
+                </div>
+                <div class="test_description_block">
+                  <div class="test_text">
+                    Мы используем её, чтобы подобрать художественный образ,
+                    который отзовётся именно вам
+                  </div>
+                  <img src="/images/load_img.jpg" alt="load" />
+                </div>
+              </div>
+            </div>
+            <button class="beta__next btn-prev">←</button>
+            <button class="nextStep button_bid_next beta__next" type="button">
+              →
+            </button>
+          </div>
+
+          <div class="beta__panel" data-step="1">
+            <div class="test_block">
+              <div class="title_test">Это вы</div>
+              <div class="test">
+                <div class="about_test">
+                  <div class="test_subtitle">Портрет</div>
+                  <div class="about_text">
+                    Фотография, сделанная в спокойном, почти музейном
+                    пространстве. Свет мягко падает на лицо и плечи, фон
+                    нейтральный и светлый, он не отвлекает и не давит. Ваш
+                    взгляд направлен в сторону экрана телефона, но тело слегка
+                    развернуто, будто вы одновременно присутствуете и наблюдаете
+                    за собой со стороны
+                  </div>
+                </div>
+                <div class="test_description_block">
+                  <div class="test_text">
+                    Здесь состояние — собранность, тишину, внутреннее
+                    равновесие, которое чувствуется даже в неподвижности
+                  </div>
+                  <img src="/images/test_2.jpg" alt="img" class="img" />
+                </div>
+              </div>
+            </div>
+            <button class="beta__next btn-prev">←</button>
+            <button class="nextStep button_bid_next beta__next" type="button">
+              →
+            </button>
+          </div>
+
+          <div class="beta__panel" data-step="2">
+            <div class="test_block">
+              <div class="title_test">Ваш художественный образ</div>
+              <div class="test">
+                <div class="about_test">
+                  <div class="test_subtitle">Образ</div>
+                  <div class="about_text">
+                    Картина — образ женщины из классической живописи, сдержанный
+                    и сосредоточенный. Её поза спокойна, взгляд отведён в
+                    сторону, а в руках — животное, символ уязвимости, нежности и
+                    внутренней силы. Цвета глубокие, приглушённые: тёмный фон
+                    усиливает ощущение тишины и сосредоточенности
+                  </div>
+                </div>
+                <div class="test_description_block">
+                  <div class="test_text">
+                    Картина показывает, что ваше состояние может быть прочитано
+                    как часть длинной культурной линии — где женщина
+                    носительница внутреннего смысла
+                  </div>
+                  <img src="/images/test_3.jpg" alt="img" class="img" />
+                </div>
+              </div>
+            </div>
+            <button class="beta__next btn-prev">←</button>
+            <button class="nextStep button_bid_next beta__next" type="button">
+              →
+            </button>
+          </div>
+
+          <div class="beta__panel test_block_gradient" data-step="3">
+            <div class="test_block">
+              <div class="title_test">Медитация принятия</div>
+              <div class="test">
+                <div class="about_test">
+                  <div class="test_subtitle">Медитация</div>
+                  <div class="about_text">
+                    Остановитесь и задержите взгляд между фотографией и
+                    картиной. Обратите внимание, как оба образа говорят о
+                    спокойствии без демонстративности, о силе без напряжения.
+                    Здесь нет позирования — есть присутствие и право занимать
+                    пространство так, как вам сейчас возможно
+                  </div>
+                </div>
+                <div class="test_description_block">
+                  <div class="test_text">
+                    Этот образ предлагает посмотреть на себя без требования быть
+                    другой. Вы уже собраны, вы уже достаточно цельны, даже если
+                    ощущаете хрупкость
+                  </div>
+                  <img src="/images/test_2.jpg" alt="img" class="img" />
+                </div>
+              </div>
+            </div>
+            <button class="beta__next btn-prev">←</button>
+            <button class="nextStep beta__next button_bid_next" type="button">
+              →
+            </button>
+          </div>
+
+          <div class="beta__panel test_block_gradient" data-step="4">
+            <div class="test_block test_block_last">
+              <div class="title_test_last">Спасибо за этот опыт</div>
+              <div class="test">
+                <div class="about_test_last">
+                  <img src="/images/test_2.jpg" alt="image" class="last" />
+                  <div class="back">
+                    <img src="/images/test_2.jpg" alt="image" class="middle" />
+                    <button class="button_bid" id="openPopup-2">
+                      Оставить заявку
+                    </button>
+                  </div>
+                  <img src="/images/test_3.jpg" alt="image" class="last" />
+                </div>
+              </div>
+              <div class="test_description_block_last">
+                <div class="title_test_mini">Финиш</div>
+                <div class="link_back">
+                  <a href="test.html">Продолжите этот путь с Респективой</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="beta__progress" aria-hidden="true">
+            <div class="beta__progress-fill"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="info_block">
+        <div class="contacts_block">
+          <p class="title">Связаться с нами</p>
+
+          <div class="contacts">
+            <a href="tel:+78088088080" class="text contact-link">
+              +7 808 808 80 80
+            </a>
+
+            <a href="mailto:info@respective.ru" class="text contact-link">
+              info@respective.ru
+            </a>
+          </div>
+        </div>
+
+        <div class="rights_block">
+          <div class="created_block">
+            Проект создан с участием женщин, <br />
+            исследующих тело и идентичность
+          </div>
+
+          <div class="rights">
+            <span class="company">© 2025 Респектива.</span>
+            <span>Все права защищены</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,679 @@
+@media (max-width: 1920px) {
+  header .title_block .title img {
+    width: 75rem;
+  }
+  header nav {
+    left: 18%;
+  }
+  main .statistics .block {
+    width: 19rem;
+  }
+  main .about_block {
+    margin: 5rem 9rem;
+  }
+  main .about_block .advantages_block {
+    --cell-w: 37rem;
+  }
+  main .about_block .advantages_block .advantage_image img {
+    width: 8rem;
+  }
+  main .about_block .advantages_block .advantage_image {
+    left: 34rem;
+    top: 15rem;
+  }
+  main .test_block .test {
+    gap: 4rem;
+  }
+  main .test_block .test .about_test {
+    gap: 4rem;
+  }
+  main .test_block .test .test_text {
+    width: 25rem;
+  }
+  main .test_block .about_test_last {
+    display: flex;
+    gap: 2rem;
+  }
+  main .test_block .test .about_test {
+    gap: 11rem;
+  }
+  main .test_block .test {
+    gap: 12rem;
+  }
+  main .test_block .middle {
+    background-size: cover;
+    background-position: center;
+    height: 24rem;
+  }
+  main .test_block .last {
+    background-size: cover;
+    background-position: center;
+    height: 29rem;
+  }
+  main .beta .test_description_block_last {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 15rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  main .test_block .title_test_last {
+    font-size: 4rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  header nav {
+    width: 48rem;
+  }
+  header .title_block .title img {
+    background-size: cover;
+    background-position: center;
+    width: 60rem;
+  }
+  header .title_block .subtitle {
+    font-size: 1.2rem;
+  }
+  header .slogan {
+    font-size: 2rem;
+  }
+  main .statistics .block {
+    width: 17rem;
+    height: 10rem;
+  }
+  main .statistics .block .title {
+    font-size: 5rem;
+  }
+  main .statistics .block .description {
+    font-size: 0.8rem;
+  }
+  .store_header .title_block {
+    margin-bottom: 20em;
+  }
+  main .good_block .good_line img {
+    width: 29rem;
+  }
+  main .affiche_block .card {
+    width: 30rem;
+    height: 45rem;
+  }
+  main .affiche_block .card .description {
+    margin-top: 39rem;
+  }
+  .about_header .title_block {
+    margin-bottom: 15em;
+  }
+  main .about_block {
+    margin: 5rem 3rem;
+  }
+  main .about_block .mission {
+    gap: 3rem;
+  }
+  main .about_block .mission .about_mission {
+    gap: 3rem;
+  }
+  main .about_block .advantages_block .advantage_line .block {
+    width: 30rem;
+  }
+  main .about_block .advantages_block .advantage_line .block .block_text {
+    font-size: 0.8rem;
+    width: 20rem;
+  }
+  main .about_block .advantages_block .advantage_image img {
+    width: 8rem;
+  }
+  main .about_block .advantages_block .advantage_image {
+    left: 26rem;
+    top: 14rem;
+  }
+  main .test_block .test .about_test {
+    gap: 2rem;
+  }
+  main .test_block .test {
+    gap: 2rem;
+  }
+  main .test_block .test .test_text {
+    width: 15rem;
+  }
+  .beta__viewport {
+    height: 33rem;
+  }
+  .beta__panel {
+    padding: 2rem 2rem;
+  }
+  main .test_block img {
+    width: 10rem;
+    height: 15rem;
+  }
+  main .test_block .title_test_last {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  main .test_block .about_test_last {
+    gap: 2rem;
+  }
+  .back {
+    width: 8rem;
+  }
+  main .test_block .last {
+    width: 14rem;
+    height: 20rem;
+  }
+  main .test_block .middle {
+    width: 9rem;
+    height: 15rem;
+  }
+  main .beta .button_bid {
+    font-size: 0.7rem;
+  }
+  main .test_block .test {
+    margin-top: 1rem;
+  }
+  main .beta .test_description_block_last {
+    margin-top: 3rem;
+    gap: 7rem;
+  }
+  .beta__progress {
+    margin-top: 30rem;
+  }
+  .beta__next {
+    bottom: 5rem;
+  }
+  main .error_block .image_block img {
+    width: 20rem;
+  }
+  main .error_block .info_block .title {
+    color: #a4b8ec;
+    font-size: 12rem;
+  }
+  main .error_block .info_block .text {
+    color: #f3f4f9;
+    font-size: 2rem;
+  }
+  footer .info_block {
+    width: 54rem;
+  }
+  main .about_block {
+    margin: 5rem 3rem;
+  }
+  main .good_block {
+    --card-w: 29rem;
+    --card-h: 17rem;
+  }
+  main .affiche_block {
+    --card-w: 30rem;
+    --card-h: 45rem;
+  }
+  header .site-nav {
+    position: fixed;
+    left: 15%;
+    top: 0;
+    margin: 1rem auto;
+    background-color: #26262c;
+    border: 1px solid #48494e;
+    width: 45rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 1000;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header .title_block .title img {
+    background-size: cover;
+    background-position: center;
+    width: 40rem;
+  }
+  header .title_block .subtitle {
+    font-size: 1rem;
+  }
+  header .title_block .button_bid_out {
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+  }
+  header .slogan {
+    margin: 10rem 0 3rem;
+    font-size: 1.5rem;
+  }
+  main .statistics .block {
+    width: 12rem;
+    height: 7rem;
+    padding: 3.5rem 1rem;
+  }
+  main .statistics .block .title {
+    font-size: 4rem;
+  }
+  main .statistics .block .description {
+    font-size: 0.7rem;
+  }
+  footer {
+    height: 13rem;
+  }
+  footer .info_block {
+    width: 38rem;
+    height: 7rem;
+  }
+  footer .info_block .rights_block .created_block {
+    font-size: 0.8rem;
+  }
+  footer .info_block .rights_block .rights .company {
+    font-size: 0.8rem;
+  }
+  footer .info_block .rights_block .rights span {
+    font-size: 0.8rem;
+  }
+  header nav {
+    width: 36rem;
+  }
+  header nav .logo img {
+    width: 3rem;
+  }
+  header .menu {
+    gap: 0.5rem;
+  }
+  header .menu li a {
+    font-size: 0.8rem;
+  }
+  header .button_bid {
+    font-size: 0.8rem;
+    border-radius: 30px;
+  }
+  .store_header .title_block {
+    margin-bottom: 15em;
+    margin-left: 6rem;
+  }
+  main .good_block .good_line img {
+    width: 21rem;
+  }
+  main .affiche_block .card {
+    width: 21rem;
+    height: 35rem;
+  }
+  main .affiche_block .card .description {
+    margin-top: 30rem;
+  }
+  main .affiche_block .card .description .title_affiche {
+    font-size: 1rem;
+  }
+  .about_header .title_block {
+    margin-left: 5rem;
+  }
+  main .about_block {
+    margin: 5rem 4rem;
+  }
+  main .about_block .mission_block .title_mission {
+    font-size: 1.5rem;
+  }
+  main .about_block .mission .about_mission .about_text {
+    font-size: 0.8rem;
+  }
+  main .about_block .advantages_block .advantage_image {
+    left: 16rem;
+    top: 15rem;
+  }
+  main .about_block .mission .about_mission .about_text,
+  main .about_block .mission .mission_text {
+    font-size: 0.8rem;
+  }
+  .test_header .title_block {
+    margin-left: 5rem;
+  }
+  main .test_block .test {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  main .test_block .test .about_test {
+    align-items: center;
+  }
+  main .test_block .test .test_text {
+    width: 26rem;
+  }
+  main .test_block .test .about_test .about_text,
+  main .test_block .test .test_description_block .test_text {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  main .beta .test_block .title_test {
+    font-size: 1.5rem;
+  }
+  .beta__viewport {
+    height: 40rem;
+  }
+  main .test_block .title_test_last {
+    font-size: 1.5rem;
+  }
+  main .test_block .test {
+    margin-top: 1rem;
+  }
+  main .test_block .last {
+    visibility: hidden;
+    display: none;
+  }
+  main .test_block .middle {
+    width: 15rem;
+    height: 22rem;
+  }
+  main .beta .test_description_block_last {
+    gap: 1rem;
+  }
+  .beta__progress {
+    width: 85%;
+    margin-top: 38rem;
+  }
+  .beta__next {
+    bottom: 3rem;
+  }
+  main .error_block {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  main .good_block {
+    --card-w: 21rem;
+    --card-h: 14rem;
+    --gap: 0.2rem;
+  }
+  main .affiche_block {
+    --card-w: 21rem;
+    --card-h: 35rem;
+    --gap: 0.1rem;
+  }
+  main .about_block .advantages_block {
+    --cell-w: 20rem;
+  }
+  header .site-nav {
+    position: fixed;
+    left: 7%;
+    top: 0;
+    margin: 1rem auto;
+    background-color: #26262c;
+    border: 1px solid #48494e;
+    width: 40rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 1000;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  header .title_block .title img {
+    width: 20rem;
+  }
+  main .statistics {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+  }
+  main .statistics .block {
+    padding: 1rem 1rem;
+    width: 23rem;
+    height: 6rem;
+  }
+  footer .info_block .rights_block {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  footer .info_block .rights_block .rights {
+    margin-top: 1rem;
+  }
+  footer .info_block {
+    width: 21rem;
+    height: 8rem;
+  }
+  header .slogan {
+    margin: 10rem 0 3rem;
+    font-size: 1rem;
+  }
+  header .title_block .subtitle {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  header .title_block {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+  main .good_block .good_line {
+    flex-direction: column;
+  }
+  .store_header .title_block .title {
+    font-size: 2rem;
+  }
+  .store_header .title_block .subtitle_store {
+    font-size: 0.8rem;
+    width: 20rem;
+  }
+  .store_header .title_block {
+    margin-bottom: 33em;
+    margin-left: 2rem;
+  }
+  main .affiche_block .affiche_line {
+    flex-direction: column;
+  }
+  main .affiche_block .card {
+    width: 23rem;
+    height: 35rem;
+  }
+  .affiche_header .title_block {
+    margin-left: 3rem;
+  }
+  main .about_block .mission {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  main .about_block .mission .about_mission {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  main .about_block {
+    margin: 3rem 2rem;
+  }
+  .about_header .title_block {
+    margin-left: 2rem;
+  }
+  .advantage_line {
+    display: flex;
+    flex-direction: column;
+  }
+  main .about_block .advantages_block .advantage_line .block {
+    width: 23rem;
+    height: 12rem;
+  }
+  main .about_block .advantages_block {
+    margin-top: 18rem;
+  }
+  main .about_block .advantages_block .advantage_image {
+    left: 10rem;
+    top: 64rem;
+  }
+  header nav {
+    width: 90%;
+    left: 2.5%;
+    padding: 0 10px;
+  }
+  .menu {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: #26262c;
+    flex-direction: column;
+    padding: 40px 20px;
+    transition: 0.3s;
+    gap: 25px;
+  }
+  .menu.active {
+    right: 0;
+  }
+  .button_bid {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  main .beta {
+    margin: 3rem 2rem;
+  }
+  .test_header .title_block {
+    margin-left: 1rem;
+  }
+  .beta__panel {
+    padding: 1rem 1rem;
+  }
+  main .test_block .test {
+    margin-top: 1rem;
+  }
+  main .test_block .test .test_text {
+    width: 17rem;
+  }
+  .beta__viewport {
+    height: 38rem;
+  }
+  .beta__next,
+  .btn-prev {
+    left: 4rem;
+    bottom: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .btn-prev {
+    left: 1rem;
+  }
+  main .test_block .last {
+    visibility: hidden;
+    display: none;
+  }
+  main .test_block .middle {
+    width: 15rem;
+    height: 22rem;
+  }
+  main .beta .test_description_block_last {
+    gap: 5rem;
+  }
+  .beta__progress {
+    width: 90%;
+    margin-top: 37rem;
+    margin-left: 1rem;
+  }
+  main .error_block .image_block img {
+    width: 15rem;
+  }
+  main .error_block .info_block .title {
+    font-size: 10rem;
+    margin-left: 2rem;
+  }
+  main .error_block .info_block .text {
+    font-size: 1.5rem;
+  }
+  .button_back {
+    display: flex;
+    margin: 0 auto;
+  }
+  footer .info_block::before {
+    top: -0.25rem;
+    left: -0.25rem;
+    box-shadow: 0 calc(4rem + 8rem) 0 #a9bfff;
+  }
+  footer .info_block::after {
+    top: -0.25rem;
+    right: -0.25rem;
+    box-shadow: 0 calc(4rem + 8rem) 0 #a9bfff;
+  }
+  main .statistics .block::before {
+    content: "";
+    position: absolute;
+    top: -0.25rem;
+    left: -0.25rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #a9bfff;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 calc(10rem + -2rem) 0 #a9bfff;
+  }
+  main .statistics .block:last-child::after {
+    content: "";
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #a9bfff;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 calc(-2rem + 10rem) 0 #a9bfff;
+  }
+  main .about_block .advantages_block {
+    margin-top: 15rem;
+  }
+  main .about_block .advantages_block .advantage_image {
+    left: 8rem;
+    top: -13rem;
+  }
+  main .about_block .advantages_block {
+    --cell-w: 10rem;
+  }
+  main .about_block .advantages_block {
+    --cell-h: 25rem;
+  }
+  main .about_block .advantages_block::before {
+    content: "";
+    width: 0rem;
+    height: 0rem;
+  }
+  main .good_block {
+    --card-w: 10.5rem;
+    --card-h: 24.3rem;
+    --gap: 0.1rem;
+  }
+  main .affiche_block {
+    --card-w: 11.5rem;
+    --card-h: 70rem;
+    --gap: 0.1rem;
+  }
+  .beta__viewport::before {
+    top: -0.25rem;
+    left: -0.25rem;
+    box-shadow: 0 calc(37.5rem + 0.5rem) 0 #a9bfff;
+  }
+  .beta__viewport::after {
+    top: -0.25rem;
+    right: -0.25rem;
+    box-shadow: 0 calc(37.5rem + 0.5rem) 0 #a9bfff;
+  }
+  header .site-nav {
+    position: fixed;
+    left: 6%;
+    top: 0;
+    margin: 1rem auto;
+    background-color: #26262c;
+    border: 1px solid #48494e;
+    width: 22rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 1000;
+    border-radius: 1rem;
+  }
+}
+.affiche_header .title_block .subtitle_affiche,
+.about_header .title_block .subtitle_affiche {
+  width: 24rem;
+}

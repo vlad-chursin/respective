@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESPECTIVE</title>
+    <link rel="stylesheet" href="../stylesheets/style.css" />
+    <!-- ФАВИКОНКА -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <meta property="og:url" content="website" />
+
+    <script src="/javascripts/index.js" defer></script>
+
+    <!-- SEO + Context -->
+    <meta property="og:title" content="RESPECTIVE" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://i.postimg.cc/Bbh33ss3/01.jpg" />
+    <meta
+      property="og:description"
+      content="РЕСПЕКТИВА — приложение для принятия себя с помощью арт-терапии и медитации."
+    />
+    <meta property="og:image" content="https://i.postimg.cc/Bbh33ss3/01.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valgerte.github.io/respective" />
+  </head>
+  <body>
+    <div id="popup" class="popup">
+      <div class="popup-overlay"></div>
+
+      <div class="popup-content">
+        <div class="title_block_pop">
+          <h2>Ощутите себя <br />частью искусства</h2>
+          <p>Оставьте вашу почту, и получите доступ к бета-версии приложения</p>
+        </div>
+
+        <form class="popup-form" id="betaForm" novalidate>
+          <div class="inputs">
+            <div class="input">
+              <p class="label">ИМЯ</p>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Респектива"
+                autocomplete="name"
+                required
+                aria-describedby="nameError"
+              />
+              <p class="error-text" id="nameError" aria-live="polite"></p>
+            </div>
+
+            <div class="input">
+              <p class="label">ВАША ПОЧТА</p>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="example@domain.com"
+                autocomplete="email"
+                required
+                aria-describedby="emailError"
+              />
+              <p class="error-text" id="emailError" aria-live="polite"></p>
+            </div>
+
+            <div class="input">
+              <p class="label">ВАШИ ПОЖЕЛАНИЯ</p>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Пожелания"
+                required
+                aria-describedby="messageError"
+              ></textarea>
+              <p class="error-text" id="messageError" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <button class="button_bid" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <header class="affiche_header">
+      <nav class="site-nav">
+        <div class="logo">
+          <a href="index.html"><img src="/images/logo.png" alt="logo" /></a>
+        </div>
+
+        <ul class="menu" id="mobileMenu">
+          <li><a href="about.html">Суть</a></li>
+          <li><a href="store.html">Магазин</a></li>
+          <li><a href="affiche.html">Афиша</a></li>
+          <li><a href="test.html">Бета-тест</a></li>
+
+          <li class="menu__cta">
+            <button class="button_bid" id="openPopupMobile" type="button">
+              Оставить заявку
+            </button>
+          </li>
+        </ul>
+
+        <button class="button_bid nav-cta" id="openPopup" type="button">
+          Оставить заявку
+        </button>
+
+        <button
+          class="burger"
+          id="burger"
+          type="button"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <button
+          class="menu-close"
+          id="menuClose"
+          type="button"
+          aria-label="Закрыть меню"
+        >
+          ×
+        </button>
+      </nav>
+      <div class="title_block">
+        <div class="title">Афиша</div>
+        <div class="subtitle_affiche">
+          Предстоящие офлайн-ивенты, лекции <br />и интерактивные воркшопы
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="affiche_block">
+        <div class="affiche_line">
+          <button
+            class="button_bid_affiche"
+            data-alert="Скоро анонс билетов&#10;Следите за сайтом"
+          >
+            <div class="card card_1">
+              <div class="description">
+                <div class="text_line">
+                  <p class="text">Лекция</p>
+                  <p class="text">08.08 08:00 – 08:30</p>
+                </div>
+                <div class="title_affiche">
+                  Влияние искусства <br />на эмоциональное состояние
+                </div>
+              </div>
+            </div>
+          </button>
+          <button
+            class="button_bid_affiche"
+            data-alert="Скоро анонс билетов&#10;Следите за сайтом"
+          >
+            <div class="card card_2">
+              <div class="description">
+                <div class="text_line">
+                  <p class="text">Воркшоп</p>
+                  <p class="text">10.08 18:00 – 18:30</p>
+                </div>
+                <div class="title_affiche">Арт-терапия</div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="info_block">
+        <div class="contacts_block">
+          <p class="title">Связаться с нами</p>
+
+          <div class="contacts">
+            <a href="tel:+78088088080" class="text contact-link">
+              +7 808 808 80 80
+            </a>
+
+            <a href="mailto:info@respective.ru" class="text contact-link">
+              info@respective.ru
+            </a>
+          </div>
+        </div>
+
+        <div class="rights_block">
+          <div class="created_block">
+            Проект создан с участием женщин, <br />
+            исследующих тело и идентичность
+          </div>
+
+          <div class="rights">
+            <span class="company">© 2025 Респектива.</span>
+            <span>Все права защищены</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
