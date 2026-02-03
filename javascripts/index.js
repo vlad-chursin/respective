@@ -78,7 +78,6 @@ document.addEventListener("mousemove", function (e) {
 });
 
 const titleImg = document.querySelector("[data-title-parallax]");
-
 let offsetX = 0;
 let offsetY = 0;
 
