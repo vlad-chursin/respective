@@ -2,8 +2,8 @@
   header .title_block .title img {
     width: 75rem;
   }
-  header nav {
-    left: 18%;
+  header .site-nav {
+    left: 24.5%;
   }
   main .statistics .block {
     width: 19rem;
@@ -12,13 +12,13 @@
     margin: 5rem 9rem;
   }
   main .about_block .advantages_block {
-    --cell-w: 37rem;
+    --cell-w: 50rem;
   }
   main .about_block .advantages_block .advantage_image img {
     width: 8rem;
   }
   main .about_block .advantages_block .advantage_image {
-    left: 34rem;
+    left: 47rem;
     top: 15rem;
   }
   main .test_block .test {
@@ -35,10 +35,11 @@
     gap: 2rem;
   }
   main .test_block .test .about_test {
-    gap: 11rem;
+    gap: 10rem;
   }
   main .test_block .test {
-    gap: 12rem;
+    gap: 10rem;
+    align-self: anchor-center;
   }
   main .test_block .middle {
     background-size: cover;
@@ -53,7 +54,39 @@
   main .beta .test_description_block_last {
     margin-top: 2.5rem;
     display: flex;
-    gap: 15rem;
+    gap: 17rem;
+  }
+  .beta__viewport {
+    margin: 0 auto;
+    width: 70rem;
+    position: relative;
+    height: 45rem;
+    border: 1px solid #48494e;
+  }
+  main .test_block .title_test_last {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f3f4f9;
+  }
+  .beta::before {
+    content: "";
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #a9bfff;
+    border-radius: 50%;
+    z-index: 2;
+    left: 17rem;
+    bottom: 2.7rem;
+  }
+  main .test_block img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    height: 30rem;
+    object-fit: contain;
   }
 }
 
@@ -61,6 +94,9 @@
   main .test_block .title_test_last {
     font-size: 4rem;
     text-align: center;
+  }
+  header .site-nav {
+    left: 15%;
   }
 }
 
@@ -221,6 +257,24 @@
     padding: 0 1rem;
     z-index: 1000;
     border-radius: 1rem;
+  }
+  .beta__viewport {
+    height: 33rem;
+    width: 45rem;
+  }
+  .beta::before {
+    width: 0rem;
+    height: 0rem;
+  }
+  .beta__viewport::before {
+    top: -0.25rem;
+    left: -0.25rem;
+    box-shadow: 0 calc(32.5rem + 0.5rem) 0 #a9bfff;
+  }
+  .beta__viewport::after {
+    top: -0.25rem;
+    right: -0.25rem;
+    box-shadow: 0 calc(32.5rem + 0.5rem) 0 #a9bfff;
   }
 }
 
@@ -406,6 +460,10 @@
     z-index: 1000;
     border-radius: 1rem;
   }
+  .beta__viewport {
+    height: 40rem;
+    width: 31rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -542,6 +600,7 @@
     width: 17rem;
   }
   .beta__viewport {
+    width: 23rem;
     height: 38rem;
   }
   .beta__next,
@@ -554,13 +613,31 @@
   .btn-prev {
     left: 1rem;
   }
+  main .test_block img {
+    width: 11rem;
+    height: 15rem;
+  }
+  .back {
+    width: 15rem;
+    align-items: anchor-center;
+  }
   main .test_block .last {
     visibility: hidden;
     display: none;
   }
   main .test_block .middle {
-    width: 15rem;
-    height: 22rem;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+  }
+  .beta::before {
+    content: "";
+    position: absolute;
+    width: 0rem;
+    height: 0rem;
+    background-color: #a9bfff;
+    border-radius: 50%;
+    z-index: 2;
   }
   main .beta .test_description_block_last {
     gap: 5rem;
@@ -569,6 +646,9 @@
     width: 90%;
     margin-top: 37rem;
     margin-left: 1rem;
+  }
+  main .beta .test_description_block_last {
+    gap: 3rem;
   }
   main .error_block .image_block img {
     width: 15rem;
@@ -671,6 +751,46 @@
     padding: 0 1rem;
     z-index: 1000;
     border-radius: 1rem;
+  }
+  .store_header,
+  .affiche_header,
+  .about_header,
+  .test_header {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: breathing-bg-mob 10s ease-in-out infinite;
+  }
+  .store_header {
+    animation: breathing-bg-store 10s ease-in-out infinite;
+  }
+  @keyframes breathing-bg-mob {
+    0% {
+      background-size: 150%;
+    }
+
+    50% {
+      background-size: 180%;
+    }
+
+    100% {
+      background-size: 150%;
+    }
+  }
+  @keyframes breathing-bg-store {
+    0% {
+      background-size: 290%;
+    }
+
+    50% {
+      background-size: 310%;
+    }
+
+    100% {
+      background-size: 290%;
+    }
   }
 }
 .affiche_header .title_block .subtitle_affiche,
